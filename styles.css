@@ -4,4 +4,37 @@
     grid-template-rows: repeat(6, 1fr);
     height: calc(100vh - 20px);
     gap: 10px;
+    
+}
+.label {
+    font-size: 4em;
+    text-align: right;
+    color: black;
+}
+
+.button {
+    background-color: #aaa;
+    color: #000;
+    font-size: 4em;
+}
+
+.button:active {
+    background-color: #888;
+}
+
+.button-operator {
+    background-color: #ffd56b;
+}
+
+.button-operator:active {
+    background-color: #ffe39c;
+}
+
+.button-clear {
+    background-color: #000;
+    color: #eee;
+}
+
+.button-clear:active {
+    background-color: #333;
 }
